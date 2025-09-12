@@ -1,0 +1,127 @@
+header{
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(6, 127, 87);
+}
+
+
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+ 
+
+.img-soloheader{
+    width: 200px;
+    height: 200px;
+    
+    margin-left: 20px;
+}
+  
+li, a{
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+
+.boas-vindas{
+    text-align: center;
+}
+
+.img-solomain2{
+    margin-top: 800px;
+    margin-bottom: 70px;
+    margin: 50px;
+    height: 500px;
+    width: 400px;
+}
+
+.texto-principal{
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+
+.card, .card2, .card3, .card4{
+    width: 220px;
+    border: 1px solid;
+    border-radius: 12px;
+    margin-right: 50px;
+    text-align: center;
+    
+}
+
+
+.service-text{
+    text-align: center;
+    margin-top: 160px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(6, 127, 87);
+    height: 100px;
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+    margin-top: 200px;
+}
+
+@media screen 
+    and (max-width: 600px) {
+        header{
+            flex-direction: column;
+            height: auto;
+            text-align: center;
+        }
+        .img-soloheader{
+            margin: 0;
+            width: 150px;
+            height: 150px;
+        }
+        .container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .card, .card2, .card3, .card4{
+            margin-bottom: 20px;
+            margin-right: 0;
+        }
+        .service{
+            flex-direction: column;
+            margin-top: 50px;
+        }
+        .service-text{
+            margin-top: 20px;
+        }
+        .img-solomain2{
+            margin-top: 50px;
+            height: 300px;
+            width: 250px;
+        }
+    
+} 
+
+
