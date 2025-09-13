@@ -1,0 +1,31 @@
+# Projeto Web Responsivo – Site Institucional
+
+## Descrição
+Este projeto é uma **página web responsiva** criada com **HTML e CSS**, com objetivo de:
+
+- Criar um **header** com logo e menu de navegação.
+- Exibir uma **imagem de destaque** e texto principal.
+- Organizar **cards de serviços e depoimentos** em layout flexível.
+- Aplicar **cores, bordas e estilos tipográficos**.
+- Tornar o layout **responsivo**, ajustando a exibição em telas menores.
+
+O projeto demonstra conceitos básicos de **layout, flexbox, responsividade e estilização visual**.
+
+---
+
+
+### Header
+```html
+<header>
+    <img class="img-soloheader" src="URL_DA_IMAGEM" alt="Logo">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+
